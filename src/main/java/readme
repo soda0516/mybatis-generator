@@ -1,0 +1,8 @@
+使用中需要注意的问题：
+    插件的使用：
+        自定义插件，需要放在org.mybatis.generator.plugins包里，通过maven的clean和install命令，解析解析。
+        将解析完成的自定义插件的.class文件，通过解压缩工具，放到mybatis-generator-maven-plugin包里。
+        在generatorConfig.xml文件里就可以进行使用和配置了。
+        ！！！放在org.mybatis.generator.plugins是为了生成的.class文件包名和调用的名字一致，否则会找不到相应的.class文件，报错！！！
+    目前这个里面有三个插件，分别是：mapper重命名，xml重命名，lombok形式，后期可以考虑将生成的dao接口统一加上@Repository注解
+        
