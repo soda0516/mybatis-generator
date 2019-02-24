@@ -3,6 +3,6 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: Nobita19860806#
-    url: jdbc:mysql://127.0.0.1:3306/person_schema?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: xxx
+    password: xxx
+    url: jdbc:mysql://xxx.xxx.xxx.xxx:3306/xxx?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
